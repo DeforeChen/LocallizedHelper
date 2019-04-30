@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89361AD0225F888B008EC7AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89361ACF225F888B008EC7AE /* AppDelegate.swift */; };
+		89361AD2225F888B008EC7AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89361AD1225F888B008EC7AE /* ViewController.swift */; };
+		89361AD4225F888C008EC7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89361AD3225F888C008EC7AE /* Assets.xcassets */; };
+		89361AD7225F888C008EC7AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89361AD5225F888C008EC7AE /* Main.storyboard */; };
+		89AB7E19227883FF00122B46 /* XlsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AB7E18227883FF00122B46 /* XlsGenerator.swift */; };
+		89AB7E2B2278999300122B46 /* LocalizableToStringXml.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E1D2278999300122B46 /* LocalizableToStringXml.py */; };
+		89AB7E2C2278999300122B46 /* Localizable.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E1E2278999300122B46 /* Localizable.py */; };
+		89AB7E2D2278999300122B46 /* StringsXmlFileUtil.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E1F2278999300122B46 /* StringsXmlFileUtil.pyc */; };
+		89AB7E2E2278999300122B46 /* Log.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E202278999300122B46 /* Log.py */; };
+		89AB7E2F2278999300122B46 /* Xls2Strings.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E212278999300122B46 /* Xls2Strings.py */; };
+		89AB7E302278999300122B46 /* LocalizableStringsFileUtil.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E222278999300122B46 /* LocalizableStringsFileUtil.pyc */; };
+		89AB7E312278999300122B46 /* Strings2Xls.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E232278999300122B46 /* Strings2Xls.py */; };
+		89AB7E322278999300122B46 /* XlsFileUtil.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E242278999300122B46 /* XlsFileUtil.py */; };
+		89AB7E332278999300122B46 /* StringsXmlFileUtil.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E252278999300122B46 /* StringsXmlFileUtil.py */; };
+		89AB7E342278999300122B46 /* XlsFileUtil.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E262278999300122B46 /* XlsFileUtil.pyc */; };
+		89AB7E352278999300122B46 /* LocalizableStringsXml.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E272278999300122B46 /* LocalizableStringsXml.py */; };
+		89AB7E362278999300122B46 /* LocalizableStringsFileUtil.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E282278999300122B46 /* LocalizableStringsFileUtil.py */; };
+		89AB7E372278999300122B46 /* LocalizableBack.py in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E292278999300122B46 /* LocalizableBack.py */; };
+		89AB7E382278999300122B46 /* Log.pyc in Resources */ = {isa = PBXBuildFile; fileRef = 89AB7E2A2278999300122B46 /* Log.pyc */; };
+		89AB7E3F2278A85C00122B46 /* FNHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB7E3D2278A85C00122B46 /* FNHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89361ACC225F888B008EC7AE /* i18nHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i18nHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89361ACF225F888B008EC7AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89361AD1225F888B008EC7AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89361AD3225F888C008EC7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89361AD6225F888C008EC7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89361AD8225F888C008EC7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89361AD9225F888C008EC7AE /* i18nHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = i18nHelper.entitlements; sourceTree = "<group>"; };
+		89AB7E18227883FF00122B46 /* XlsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XlsGenerator.swift; sourceTree = "<group>"; };
+		89AB7E1D2278999300122B46 /* LocalizableToStringXml.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LocalizableToStringXml.py; sourceTree = "<group>"; };
+		89AB7E1E2278999300122B46 /* Localizable.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Localizable.py; sourceTree = "<group>"; };
+		89AB7E1F2278999300122B46 /* StringsXmlFileUtil.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = StringsXmlFileUtil.pyc; sourceTree = "<group>"; };
+		89AB7E202278999300122B46 /* Log.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Log.py; sourceTree = "<group>"; };
+		89AB7E212278999300122B46 /* Xls2Strings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Xls2Strings.py; sourceTree = "<group>"; };
+		89AB7E222278999300122B46 /* LocalizableStringsFileUtil.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = LocalizableStringsFileUtil.pyc; sourceTree = "<group>"; };
+		89AB7E232278999300122B46 /* Strings2Xls.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Strings2Xls.py; sourceTree = "<group>"; };
+		89AB7E242278999300122B46 /* XlsFileUtil.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = XlsFileUtil.py; sourceTree = "<group>"; };
+		89AB7E252278999300122B46 /* StringsXmlFileUtil.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = StringsXmlFileUtil.py; sourceTree = "<group>"; };
+		89AB7E262278999300122B46 /* XlsFileUtil.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = XlsFileUtil.pyc; sourceTree = "<group>"; };
+		89AB7E272278999300122B46 /* LocalizableStringsXml.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LocalizableStringsXml.py; sourceTree = "<group>"; };
+		89AB7E282278999300122B46 /* LocalizableStringsFileUtil.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LocalizableStringsFileUtil.py; sourceTree = "<group>"; };
+		89AB7E292278999300122B46 /* LocalizableBack.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = LocalizableBack.py; sourceTree = "<group>"; };
+		89AB7E2A2278999300122B46 /* Log.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Log.pyc; sourceTree = "<group>"; };
+		89AB7E392278A62A00122B46 /* i18nHelper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i18nHelper-Bridging-Header.h"; sourceTree = "<group>"; };
+		89AB7E3D2278A85C00122B46 /* FNHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNHUD.m; sourceTree = "<group>"; };
+		89AB7E3E2278A85C00122B46 /* FNHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNHUD.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89361AC9225F888B008EC7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89361AC3225F888B008EC7AE = {
+			isa = PBXGroup;
+			children = (
+				89361ACE225F888B008EC7AE /* i18nHelper */,
+				89361ACD225F888B008EC7AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89361ACD225F888B008EC7AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89361ACC225F888B008EC7AE /* i18nHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89361ACE225F888B008EC7AE /* i18nHelper */ = {
+			isa = PBXGroup;
+			children = (
+				89AB7E392278A62A00122B46 /* i18nHelper-Bridging-Header.h */,
+				89361ACF225F888B008EC7AE /* AppDelegate.swift */,
+				89AB7E3E2278A85C00122B46 /* FNHUD.h */,
+				89AB7E3D2278A85C00122B46 /* FNHUD.m */,
+				89361AD1225F888B008EC7AE /* ViewController.swift */,
+				89361AD3225F888C008EC7AE /* Assets.xcassets */,
+				89AB7E18227883FF00122B46 /* XlsGenerator.swift */,
+				89361AD5225F888C008EC7AE /* Main.storyboard */,
+				89361AD8225F888C008EC7AE /* Info.plist */,
+				89361AD9225F888C008EC7AE /* i18nHelper.entitlements */,
+				89361ADF225F88AC008EC7AE /* Supporting Files */,
+			);
+			path = i18nHelper;
+			sourceTree = "<group>";
+		};
+		89361ADF225F88AC008EC7AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89AB7E1C2278999300122B46 /* pythonLib */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89AB7E1C2278999300122B46 /* pythonLib */ = {
+			isa = PBXGroup;
+			children = (
+				89AB7E1D2278999300122B46 /* LocalizableToStringXml.py */,
+				89AB7E1E2278999300122B46 /* Localizable.py */,
+				89AB7E1F2278999300122B46 /* StringsXmlFileUtil.pyc */,
+				89AB7E202278999300122B46 /* Log.py */,
+				89AB7E212278999300122B46 /* Xls2Strings.py */,
+				89AB7E222278999300122B46 /* LocalizableStringsFileUtil.pyc */,
+				89AB7E232278999300122B46 /* Strings2Xls.py */,
+				89AB7E242278999300122B46 /* XlsFileUtil.py */,
+				89AB7E252278999300122B46 /* StringsXmlFileUtil.py */,
+				89AB7E262278999300122B46 /* XlsFileUtil.pyc */,
+				89AB7E272278999300122B46 /* LocalizableStringsXml.py */,
+				89AB7E282278999300122B46 /* LocalizableStringsFileUtil.py */,
+				89AB7E292278999300122B46 /* LocalizableBack.py */,
+				89AB7E2A2278999300122B46 /* Log.pyc */,
+			);
+			path = pythonLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89361ACB225F888B008EC7AE /* i18nHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89361ADC225F888C008EC7AE /* Build configuration list for PBXNativeTarget "i18nHelper" */;
+			buildPhases = (
+				89361AC8225F888B008EC7AE /* Sources */,
+				89361AC9225F888B008EC7AE /* Frameworks */,
+				89361ACA225F888B008EC7AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = i18nHelper;
+			productName = i18nHelper;
+			productReference = 89361ACC225F888B008EC7AE /* i18nHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89361AC4225F888B008EC7AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IGG;
+				TargetAttributes = {
+					89361ACB225F888B008EC7AE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 89361AC7225F888B008EC7AE /* Build configuration list for PBXProject "i18nHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89361AC3225F888B008EC7AE;
+			productRefGroup = 89361ACD225F888B008EC7AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89361ACB225F888B008EC7AE /* i18nHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89361ACA225F888B008EC7AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AB7E312278999300122B46 /* Strings2Xls.py in Resources */,
+				89361AD4225F888C008EC7AE /* Assets.xcassets in Resources */,
+				89AB7E2E2278999300122B46 /* Log.py in Resources */,
+				89AB7E382278999300122B46 /* Log.pyc in Resources */,
+				89AB7E302278999300122B46 /* LocalizableStringsFileUtil.pyc in Resources */,
+				89AB7E2B2278999300122B46 /* LocalizableToStringXml.py in Resources */,
+				89361AD7225F888C008EC7AE /* Main.storyboard in Resources */,
+				89AB7E342278999300122B46 /* XlsFileUtil.pyc in Resources */,
+				89AB7E372278999300122B46 /* LocalizableBack.py in Resources */,
+				89AB7E322278999300122B46 /* XlsFileUtil.py in Resources */,
+				89AB7E362278999300122B46 /* LocalizableStringsFileUtil.py in Resources */,
+				89AB7E2D2278999300122B46 /* StringsXmlFileUtil.pyc in Resources */,
+				89AB7E352278999300122B46 /* LocalizableStringsXml.py in Resources */,
+				89AB7E2C2278999300122B46 /* Localizable.py in Resources */,
+				89AB7E2F2278999300122B46 /* Xls2Strings.py in Resources */,
+				89AB7E332278999300122B46 /* StringsXmlFileUtil.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89361AC8225F888B008EC7AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AB7E19227883FF00122B46 /* XlsGenerator.swift in Sources */,
+				89361AD2225F888B008EC7AE /* ViewController.swift in Sources */,
+				89361AD0225F888B008EC7AE /* AppDelegate.swift in Sources */,
+				89AB7E3F2278A85C00122B46 /* FNHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89361AD5225F888C008EC7AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89361AD6225F888C008EC7AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89361ADA225F888C008EC7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89361ADB225F888C008EC7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89361ADD225F888C008EC7AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = i18nHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Defore.i18nHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "i18nHelper/i18nHelper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89361ADE225F888C008EC7AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = i18nHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Defore.i18nHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "i18nHelper/i18nHelper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89361AC7225F888B008EC7AE /* Build configuration list for PBXProject "i18nHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89361ADA225F888C008EC7AE /* Debug */,
+				89361ADB225F888C008EC7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89361ADC225F888C008EC7AE /* Build configuration list for PBXNativeTarget "i18nHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89361ADD225F888C008EC7AE /* Debug */,
+				89361ADE225F888C008EC7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89361AC4225F888B008EC7AE /* Project object */;
+}
