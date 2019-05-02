@@ -3,7 +3,7 @@
 //  i18nHelper
 //
 //  Created by Chen Defore on 2019/4/11.
-//  Copyright © 2019 IGG. All rights reserved.
+//  Copyright © 2019 Defore. All rights reserved.
 //
 
 import Cocoa
